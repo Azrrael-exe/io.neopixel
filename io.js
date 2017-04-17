@@ -1,8 +1,7 @@
 var io = require('socket.io')();
 var redis = require("redis");
-var client = redis.createClient(process.env.REDIS_URL);
+var client = redis.createClient( null || process.env.REDIS_URL);
 io.serveClient(false);
-
 io.on('connection', function(socket){
   socket.on('register', function(msg){
     console.log(msg)
@@ -25,7 +24,7 @@ io.on('connection', function(socket){
     })
   })
   socket.on('disconnect', function(){
-    console.log('user disconnected');
+    console.log({'user disconnected': socket.id});
   });
 });
 

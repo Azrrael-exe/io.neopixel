@@ -1,12 +1,11 @@
 body {
   background-color: white;
+  font-family: Georgia, serif;
 }
 
 .panel {
     background-color: white;
-    margin-top: 80px;
-    border-color: gray;
-    border-width: thin;
+    margin-top: 10%;
     padding-top: 10px;
     padding-bottom: 30px;
 }
@@ -15,4 +14,10 @@ body {
   font-size: 35px;
   text-align: center;
   font-family: Georgia, serif;
+  margin-bottom: 30px;
+}
+
+.response {
+  font-size: 20px;
+  text-align: center;
 }
