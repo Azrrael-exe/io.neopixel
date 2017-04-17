@@ -7,7 +7,7 @@ io.on('connection', function(socket){
   socket.on('register', function(msg){
     console.log(msg)
     client.set(msg["socketName"], msg['socketId'])
-    client.expireat(msg["socketName"], 7200);
+    client.expire(msg["socketName"], 7200);
   });
   socket.on('user-command', function(msg){
     client.get(msg['socketName'], function(err, response){
