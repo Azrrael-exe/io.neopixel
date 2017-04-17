@@ -1,7 +1,7 @@
 var app = angular.module("io-pixel", ['btford.socket-io']);
 
 app.factory('socket', function (socketFactory) {
-  var myIoSocket = io.connect('http://localhost:8080');
+  var myIoSocket = io.connect();
   mySocket = socketFactory({
     ioSocket: myIoSocket
   });
