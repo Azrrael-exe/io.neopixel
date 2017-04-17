@@ -1,14 +1,12 @@
 {
   "name": "io.neopixe-server",
   "version": "1.0.0",
-  "description": "Server to connect an RGB lamp",
-  "main": "server.js",
-  "scripts": {
-    "start": "node ./bin/www",
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "engines": {
+    "node": "6.2.0"
   },
-  "author": "vcamargo.e@gmail.com",
-  "license": "MIT",
+  "scripts": {
+    "start": "node ./bin/www"
+  },
   "dependencies": {
     "body-parser": "^1.17.1",
     "ejs": "~2.5.6",
