@@ -1,0 +1,16 @@
+{
+  "name": "io.neopixel-client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "client.js",
+  "scripts": {
+    "start" : "node client.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "serialport": "^4.0.7",
+    "socket.io-client": "^1.7.3"
+  }
+}

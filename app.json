@@ -1,0 +1,8 @@
+{
+  "name": "io.neopixel",
+  "description": "io server to control rgb lamps",
+  "repository": "https://github.com/Azrrael-exe/io.neopixel",
+  "logo": "https://github.com/Azrrael-exe/io.neopixel/public/flavicon.ico",
+  "keywords": ["node", "express", "rgb", "neopixel"],
+  "image": "heroku/nodejs"
+}
