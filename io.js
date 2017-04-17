@@ -1,6 +1,6 @@
 var io = require('socket.io')();
 var redis = require("redis");
-var client = redis.createClient();
+var client = redis.createClient(process.env.REDIS_URL);
 io.serveClient(false);
 
 io.on('connection', function(socket){
