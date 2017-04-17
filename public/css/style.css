@@ -1,0 +1,18 @@
+body {
+  background-color: white;
+}
+
+.panel {
+    background-color: white;
+    margin-top: 80px;
+    border-color: gray;
+    border-width: thin;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.main-tittle {
+  font-size: 35px;
+  text-align: center;
+  font-family: Georgia, serif;
+}
