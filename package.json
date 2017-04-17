@@ -1,5 +1,5 @@
 {
-  "name": "io.neopixe.server",
+  "name": "io.neopixe-server",
   "version": "1.0.0",
   "description": "Server to connect an RGB lamp",
   "main": "server.js",
